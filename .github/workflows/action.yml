@@ -2,10 +2,10 @@ name: Vionix Pipeline
 
 on:
   schedule:
-    - cron: "30 3,8,14,17 * * *"
+    - cron: "30 14 * * *"  # Malayalam
 
 concurrency:
-  group: vionix-pipeline
+  group: vionix-pipeline-malayalam
   cancel-in-progress: true
 
 env:
