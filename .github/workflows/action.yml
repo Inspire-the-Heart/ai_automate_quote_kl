@@ -1,6 +1,7 @@
 name: Vionix Pipeline
 
 on:
+  push:
   schedule:
     - cron: "30 14 * * *"  # Malayalam
 
